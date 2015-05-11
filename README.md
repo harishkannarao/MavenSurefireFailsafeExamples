@@ -1,6 +1,6 @@
 # MavenSurefireFailsafeExamples
 
-Run full build (unit tests, deploy app and functional tests):
+Run full build:
 ---
 `mvn clean install`
 

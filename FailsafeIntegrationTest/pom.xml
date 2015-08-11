@@ -44,6 +44,7 @@
                             <goal>verify</goal>
                         </goals>
                         <configuration>
+                            <skip>false</skip>
                             <includes>
                                 <include>**/IT*.java</include>
                                 <include>**/*IT.java</include>

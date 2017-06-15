@@ -12,6 +12,7 @@
         <module>SurefireIntegrationTest</module>
         <module>FailsafeIntegrationTest</module>
         <module>SurefireUnitTest</module>
+        <module>SpringJunitSurefireExample</module>
     </modules>
 
 

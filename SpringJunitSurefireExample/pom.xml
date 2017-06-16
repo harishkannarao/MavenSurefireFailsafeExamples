@@ -11,6 +11,19 @@
 
     <artifactId>SpringJunitSurefireExample</artifactId>
 
+    <properties>
+        <testEnv>local</testEnv>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <testEnv>dev</testEnv>
+            </properties>
+        </profile>
+    </profiles>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -32,6 +45,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <skip>false</skip>
+                    <systemPropertyVariables>
+                        <test.env>${testEnv}</test.env>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
             <plugin>

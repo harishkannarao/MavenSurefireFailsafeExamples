@@ -13,6 +13,7 @@
         <module>FailsafeIntegrationTest</module>
         <module>SurefireUnitTest</module>
         <module>SpringJunitSurefireExample</module>
+        <module>SurefireTestNgUnitTest</module>
     </modules>
 
 

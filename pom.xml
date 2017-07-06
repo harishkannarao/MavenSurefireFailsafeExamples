@@ -14,6 +14,7 @@
         <module>SurefireUnitTest</module>
         <module>SpringJunitSurefireExample</module>
         <module>SurefireTestNgUnitTest</module>
+        <module>SpringTestNgSurefireExample</module>
     </modules>
 
 

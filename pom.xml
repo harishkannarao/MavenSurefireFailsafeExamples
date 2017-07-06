@@ -15,6 +15,7 @@
         <module>SpringJunitSurefireExample</module>
         <module>SurefireTestNgUnitTest</module>
         <module>SpringTestNgSurefireExample</module>
+        <module>SpringTestNgFailsafeIntegrationTestExample</module>
     </modules>
 
 

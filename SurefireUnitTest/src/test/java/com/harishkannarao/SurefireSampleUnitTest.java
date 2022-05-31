@@ -1,16 +1,16 @@
 package com.harishkannarao;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class SurefireSampleUnitTest {
     @Test
     public void surefireSampleUnitTest1() {
-        Assert.assertTrue(true);
+        Assertions.assertTrue(true);
     }
 
     @Test
     public void surefireSampleUnitTest2() {
-        Assert.assertTrue(true);
+        Assertions.assertTrue(true);
     }
 }

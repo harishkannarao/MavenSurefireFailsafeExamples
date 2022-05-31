@@ -9,13 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>SurefireUnitTest</module>
+        <module>SurefireTestNgUnitTest</module>
         <module>SurefireIntegrationTest</module>
         <module>FailsafeIntegrationTest</module>
-        <module>SurefireUnitTest</module>
-        <module>SpringJunitSurefireExample</module>
-        <module>SurefireTestNgUnitTest</module>
-        <module>SpringTestNgSurefireExample</module>
-        <module>SpringTestNgFailsafeIntegrationTestExample</module>
     </modules>
 
 

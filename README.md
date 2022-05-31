@@ -1,5 +1,9 @@
 # MavenSurefireFailsafeExamples
 
+JDK version:
+---
+17 or latest
+
 Run full build:
 ---
 

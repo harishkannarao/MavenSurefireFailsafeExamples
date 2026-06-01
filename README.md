@@ -2,7 +2,7 @@
 
 JDK version:
 ---
-11 or latest
+25 or latest
 
 Run full build:
 ---
